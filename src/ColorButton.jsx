@@ -1,6 +1,6 @@
-const ColorButton = ({colorName}) => {
+const ColorButton = ({colorName, setSelectedColor}) => {
   return (
-    <button>{colorName}</button>
+    <button onClick={() => setSelectedColor(colorName)}>{colorName}</button>
   )
 }
 
