@@ -6,9 +6,9 @@ function App() {
 const [selectedColor, setSelectedColor] = useState ("");
   return (
     <>
+    <h1>Color picker</h1>
     <PickedColor selectedColor = {selectedColor}/>
 
-    <h1>Color picker</h1>
     <ColorButton colorName="blue" setSelectedColor={setSelectedColor}/>
     <ColorButton colorName="red" setSelectedColor={setSelectedColor}/>
     <ColorButton colorName="green" setSelectedColor={setSelectedColor}/>
